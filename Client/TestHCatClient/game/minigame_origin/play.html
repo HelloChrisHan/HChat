@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cassiondisease_MiniGame</title>
+
+    <style>
+
+        #gamezone{
+            width: 600px;
+            height: 700px;
+            border: 1px solid black;
+            overflow: hidden;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <canvas id="gamezone" width="600" height="700"></canvas>
+
+    <div id="storage" style="visibility: hidden;">
+        <img id="shipimg" src="pic/ship.png">
+        <img id="shipleft" src="pic/shipleft.png">
+        <img id="shipright" src="pic/shipright.png">
+        <img id="rock1" src="pic/rock1.png">
+        <img id="rock2" src="pic/rock2.png">
+        <img id="background" src="pic/bg.png">
+    </div>
+
+    <script type="text/javascript" src="js/player.js"></script>
+    <script type="text/javascript" src="js/rocks.js"></script>
+    <script type="text/javascript" src="js/keyboardchk.js"></script>
+    <script type="text/javascript" src="js/collision.js"></script>
+    <script type="text/javascript" src="js/renderbg.js"></script>
+
+    <script type="text/javascript" src="js/game.js"></script>
+    
+</body>
+</html>
